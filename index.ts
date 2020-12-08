@@ -144,6 +144,10 @@ const onClick = () => {
 const resButton = document.getElementById('result') as HTMLButtonElement
 resButton.addEventListener('click', onClick)
 
+new (window as any).ClipboardJS('#copyOne');
+new (window as any).ClipboardJS('#copyTwo');
+new (window as any).ClipboardJS('#copyThree');
+
 //const copyoneel = (document.getelementbyid('copyone') as htmlbuttonelement)
 //copyoneel.addeventlistener('click', () => {
   //const oneel = (document.getelementbyid('one') as htmlinputelement)
